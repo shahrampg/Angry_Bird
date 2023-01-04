@@ -87,6 +87,7 @@ public class RedBird : MonoBehaviour
         TimerCount(3);
     }
 
+    // Async Timer
     private async void TimerCount(int milsec)
     {
         await Task.Delay(milsec * 1000);
